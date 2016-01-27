@@ -30,8 +30,9 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
+        String ans = "";
         for (int i = 0; i < input.length(); i++) {
-            input.charAt(i) += 1;
+            ans += (++input.charAt(i))
         }
         return input;
     }
