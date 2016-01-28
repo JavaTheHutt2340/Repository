@@ -55,7 +55,7 @@ import edu.gatech.oad.antlab.pkg2.*;
         String toPrint =
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
-<<<<<<< HEAD
+
 		  //Person1 replace P1 with your name
 		  //and gburdell1 with your gt id
 		  Person1 p1 = new Person1("P1");
