@@ -33,11 +33,11 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-		Char[] inputCharArray = input.toCharArray();
+		char[] inputCharArray = input.toCharArray();
 		char temp;
 		Random r = new Random();
 		for (int i = 0; i < input.length() - 1; i++) {
-			inputCharArray[i] = temp;
+			temp = inputCharArray[i];
 			int rand = r.nextInt((input.length()));
 			inputCharArray[i] = inputCharArray[rand];
 			inputCharArray[rand] = temp;
