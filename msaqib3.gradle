@@ -12,8 +12,10 @@ dependencies {
 
 jar {
   manifest {
-    attributes  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain'
+    attributes  'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+								'Class-Path' : '/../../lib/resources.jar'
   }
+	archiveName = 'm2.jar'
 }
 
 repositories {
