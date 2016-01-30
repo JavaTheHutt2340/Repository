@@ -45,7 +45,6 @@ public class Person2 {
 		for (int i = 0; i < inputCharArray.length; i++) {
 			randName += Character.toString(inputCharArray[i]);
 		}
-		System.out.print(randName);
 		return randName;
 	}
 	/**
