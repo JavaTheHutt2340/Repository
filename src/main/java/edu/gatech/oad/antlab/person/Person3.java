@@ -45,7 +45,7 @@ public class Person3 {
 	//Person 3 put your implementation here
 	String result = "";
 	for(int i = 0; i < input.length(); i++) {
-		result += input.charAt(i - input.length());
+		result += input.charAt(input.length() - i - 1);
 	}
 	return result;
 	}
