@@ -1,3 +1,4 @@
+defaulttask: 'jar'
 apply plugin: 'java'
 
 dependencies {
@@ -7,6 +8,7 @@ dependencies {
 jar {
 	manifest{
 		attributes 'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntlabMain'
+				   'Class-Path' : '../../lib/resources.jar'
 	}
 	archiveName = 'm2.jar'
 }
